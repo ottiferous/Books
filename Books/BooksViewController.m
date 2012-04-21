@@ -17,7 +17,16 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    NSString *bookTitle = @"Brave New World";
+    NSString *bookAuthor = @"Huxley";
+    int datePublished = 1932;
+    
+    NSString *book = [NSString stringWithFormat:@"%@ by %@ date published: %i", bookTitle, bookAuthor, datePublished];
+    NSLog(@"%@",book);
+    
+    NSLog(@"%@", [book substringFromIndex:5]);
+    
+    NSLog(@"%@", [book substringWithRange:NSMakeRange(6, 3)]);
 }
 
 - (void)viewDidUnload

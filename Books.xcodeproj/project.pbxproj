@@ -22,13 +22,13 @@
 		CE3FB6A21542848D00D77BC2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		CE3FB6A41542848D00D77BC2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		CE3FB6A61542848D00D77BC2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		CE3FB6AA1542848D00D77BC2 /* Books-Info.plist */ = {isa = PBXFileReference; path = "Books-Info.plist"; sourceTree = "<group>"; };
+		CE3FB6AA1542848D00D77BC2 /* Books-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Books-Info.plist"; sourceTree = "<group>"; };
 		CE3FB6AC1542848D00D77BC2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CE3FB6AE1542848E00D77BC2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		CE3FB6B01542848E00D77BC2 /* Books-Prefix.pch */ = {isa = PBXFileReference; path = "Books-Prefix.pch"; sourceTree = "<group>"; };
-		CE3FB6B11542848E00D77BC2 /* BooksAppDelegate.h */ = {isa = PBXFileReference; path = BooksAppDelegate.h; sourceTree = "<group>"; };
+		CE3FB6B01542848E00D77BC2 /* Books-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Books-Prefix.pch"; sourceTree = "<group>"; };
+		CE3FB6B11542848E00D77BC2 /* BooksAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BooksAppDelegate.h; sourceTree = "<group>"; };
 		CE3FB6B21542848E00D77BC2 /* BooksAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BooksAppDelegate.m; sourceTree = "<group>"; };
-		CE3FB6B41542848E00D77BC2 /* BooksViewController.h */ = {isa = PBXFileReference; path = BooksViewController.h; sourceTree = "<group>"; };
+		CE3FB6B41542848E00D77BC2 /* BooksViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BooksViewController.h; sourceTree = "<group>"; };
 		CE3FB6B51542848E00D77BC2 /* BooksViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BooksViewController.m; sourceTree = "<group>"; };
 		CE3FB6B81542848E00D77BC2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/BooksViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
